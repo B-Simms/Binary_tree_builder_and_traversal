@@ -2,7 +2,7 @@
 // November 7, 2018
 // Binary Tree Builder and Traversal
 
-package com.blake;
+package com.blake_simmons;
 
 import java.util.Stack;
 
@@ -19,7 +19,7 @@ public class Main {
         char[] postfix;
 
         // Create and display postfix expression
-        postfix = new char[]{'1', '5', '+', '3', '8', '*', '1', '*', '7', '/', '-', '3', '+'};
+        postfix = new char[]{'8', '1', '*', '6', '4', '/', '-', '1', '-', '1', '-', '9', '+'};
         System.out.print("Original postfix expression: [ " );
         for(int i = 0 ; i < postfix.length ; i++){
             System.out.print(postfix[i] + " ");
